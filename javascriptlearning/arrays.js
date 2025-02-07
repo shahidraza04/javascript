@@ -45,3 +45,10 @@ console.log(arr);
 let bigfruits = fruitsbasket.map((fruit) => fruit.toUppercase());
 console.log("bigfruits=",bigfruits);
 console.log("type of bigfruits:", typeof bigfruits);
+
+//reduce method in javascript
+let num =[1, 2, 3, 4, 5];
+let sum = num.reduce((accumulator, current_val)=>{
+    return accumulator + current_val;
+},0);
+console.log("sum=", sum);
